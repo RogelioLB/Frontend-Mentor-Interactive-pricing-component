@@ -168,6 +168,9 @@ body{
 }
 
 #slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height:20px;
+    width: 20px;
     transform: translateY(-15px);
     background-image: url("images/icon-slider.svg");
     background-position: center;
