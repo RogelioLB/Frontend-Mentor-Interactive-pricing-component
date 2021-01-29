@@ -214,6 +214,7 @@ body{
 }
 
 .botoncito{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
     position: relative;
     display: inline-block;
     width: 3rem;
