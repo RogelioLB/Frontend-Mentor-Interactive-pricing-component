@@ -110,6 +110,7 @@ body{
 }
 
 .btn{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
     background-color: var(--title);
     border:none;
     color:hsl(226, 100%, 87%);
@@ -125,6 +126,7 @@ body{
 
 #slider{
     width:80%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-appearance: none;
     outline: none;
 }
@@ -348,3 +350,8 @@ input:checked + .deslizadora:before {
     }
 }
 
+@media (max-width:300){
+    .container{
+        width:260px;
+    }
+}
