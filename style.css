@@ -271,8 +271,7 @@ input:checked + .deslizadora:before {
     font-weight: 600;
     margin:0 !important;
 }
-
-@media (max-width:375px){
+@media (max-width:560px){
     body{
         overflow-x: hidden;
     }
@@ -288,7 +287,13 @@ input:checked + .deslizadora:before {
     }
     .container{
         padding: 8px;
-        width:270px;
+        width:450px;
+    }
+}
+
+@media (max-width:420px){
+    .container{
+        width: 270px;
     }
     .views{
         display: block;
@@ -342,3 +347,4 @@ input:checked + .deslizadora:before {
         transform: translateX(.55rem);
     }
 }
+
